@@ -1,0 +1,58 @@
+*{
+	margin: 0px 0px;
+}
+div{
+	/* background-color: grey; */
+	/* width: 100px;
+	height: 80px; */
+	margin: 1px 1px;
+}
+#box1{
+	width: 800px;
+	margin: 0px auto;
+}
+#head{
+	background-color: grey;
+	height: 100px;
+	width: auto;
+	
+}
+#nav{
+	background-color: grey;
+	height: 50px;
+	width: auto;
+	
+}
+#bigmain{
+	height: 502px;
+	width: auto;
+	
+}
+#cha{
+	background-color: grey;
+	height: 500px;
+	width: 200px;
+	float: left;
+	
+}
+#main{
+	background-color: grey;
+	height: 500px;
+	width: 594px;
+	float: right;
+}
+#bottom{
+	height: 50px;
+	width: auto;
+	background-color: grey;
+}
+ul{
+	list-style: none;
+	
+}
+li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	background-color: red;
+}
