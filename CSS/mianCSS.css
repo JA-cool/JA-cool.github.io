@@ -2,24 +2,43 @@
 	margin: 0px 0px;
 }
 div{
-	/* background-color: grey; */
+	/* background-color: lightgrey; */
 	/* width: 100px;
 	height: 80px; */
-	margin: 1px 1px;
+	margin: 10px 1px;
 }
 #box1{
 	width: 800px;
 	margin: 0px auto;
+	background-image: url(../images/缺省页-暂无团队.png);
 }
 #head{
-	background-color: grey;
+/* 	background-color: lightgrey; */
 	height: 100px;
 	width: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#form1{
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	top: 50%;
+	margin-top: -25px
 	
 }
+#sousuoid{
+	height: 25px;
+	width: 156px;
+	border: solid 1px black;
+}
+#tjid{
+	height: 40x;
+	width: 35px;
+}
 #nav{
-	background-color: grey;
-	height: 50px;
+	/* background-color: lightgrey; */
+	height: 40px;
 	width: auto;
 	
 }
@@ -29,14 +48,14 @@ div{
 	
 }
 #cha{
-	background-color: grey;
+	background-color: lightgrey;
 	height: 500px;
 	width: 200px;
 	float: left;
 	
 }
 #main{
-	background-color: grey;
+	background-color: lightgrey;
 	height: 500px;
 	width: 594px;
 	float: right;
@@ -44,15 +63,31 @@ div{
 #bottom{
 	height: 50px;
 	width: auto;
-	background-color: grey;
+	background-color: lightgrey;
 }
 ul{
 	list-style: none;
-	
+	height: 100%;
+	width: 100%;
 }
 li{
-	width: 20%;
+	position: relative;
+	right: 40px;
+	width: 24%;
+	margin-right: 6px;
+	height: 100%;
 	float: left;
 	text-align: center;
-	background-color: red;
+	background: url(../images/按钮1.png) no-repeat;
+	line-height: 50px;
+}
+a{
+	list-style-type: none;
+	font: 300 20px 宋体;
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: gray;
+	font-size: 23px;
 }
