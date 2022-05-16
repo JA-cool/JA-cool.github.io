@@ -1,21 +1,27 @@
 *{
-	margin:0px auto;
 	padding: 0px;
 }
 div{
-	width: 50%;
-	margin: 25% auto;
-	
+/* 	width: 50%; */
+	margin: 0px auto;
+	position: absolute;
+	top: 45%;
 }
 input{
 	width: 80%;
 	height: 20%;
+}
+input:hover{
+	width: 83%;
+	height: 23%;
 }
 body{
 	background-image: url(../images/bg1.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 100%;
+	/* background-size: cover;
+	position: absolute;
+	overflow: hidden;
 }
-
 
